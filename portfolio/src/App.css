@@ -21,7 +21,7 @@ button:focus {
 
 .hero h1 {
   font-size: 50px;
-  color: #373C51;
+  color: #566677;
   text-align: center;
   padding: 182px 0 0 0;
 }
@@ -29,11 +29,7 @@ button:focus {
 .hero h2 {
   font-size: 18px;
   text-align: center;
-  color: #3a434c;
-  background: -webkit-linear-gradient(to left, #BBD2C5 90%, #536976);
-  background: linear-gradient(to left, #BBD2C5 90%, #536976);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #9ca8b7;
 }
 
 .wrapper h2 {
@@ -46,13 +42,13 @@ h3 {
   font-size: 25px;
   text-align: center;
   margin: 0 0 50px 0;
-  color: #004e92;
+  color: #243B55;
 }
 
 h4 {
   margin: 20px 0 0 0;
   line-height: 25px;
-  color: #004e92;
+  color: #667382;
 }
 
 .data-container h4 {
@@ -67,7 +63,7 @@ h4 {
 }
 
 h6 a {
-  color: #BBD2C5;
+  color: #9ca8b7;
   text-decoration: none;
 }
 
@@ -106,16 +102,16 @@ p a:hover {
 
 .app hr {
     border: 0;
-    border-bottom: 4px dashed #BBD2C5;
+    border-bottom: 1px dashed #BBD2C5;
 }
 
 /* Hero */
 
 .hero {
   height: 500px;
-  background: #000428;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .animation-fade-in {
@@ -131,10 +127,10 @@ p a:hover {
 }
 
 .about img {
-  border: 4px dashed #BBD2C5;
+  border: 1px dashed #BBD2C5;
   border-radius: 50%;
-  max-height: 120px;
-  margin: 35px 25px 0 0;
+  max-height: 110px;
+  margin: 25px 15px 0 0;
   float: left;
 }
 
@@ -165,7 +161,7 @@ p a:hover {
 .proj img {
   text-align: center;
   margin: auto;
-  border: 4px dashed #BBD2C5;
+  border: 1px dashed #BBD2C5;
   padding: 0px;
 }
 
@@ -196,7 +192,7 @@ p a:hover {
 /* Footer */
 
 .footer {
-  background: #00275a;
+  background: #141E30;
   text-align: center;
 }
 
