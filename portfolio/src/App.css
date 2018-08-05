@@ -130,7 +130,7 @@ p a:hover {
   border-radius: 50%;
   border: 1px dashed #667382;
   max-height: 110px;
-  margin: 25px 15px 0 0;
+  margin: 25px 20px 0 0;
   float: left;
 }
 
@@ -214,6 +214,7 @@ p a:hover {
   .about img {
     margin: auto;
     display: block;
+    max-height: 140px;
     float: none;
   }
 
@@ -232,7 +233,6 @@ p a:hover {
 }
 
 @media only screen and (max-width: 550px) {
-
   .hero h1 {
     font-size: 43px;
     padding: 175px 0 0 0;
@@ -272,7 +272,6 @@ p a:hover {
 
   .proj img {
     max-width: 100%;
-    border: 0px;
   }
 
   .data-container button {
