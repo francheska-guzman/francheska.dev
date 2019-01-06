@@ -43,7 +43,7 @@ button:focus {
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 25px;
   text-align: center;
   margin: 0 0 55px 0;
   color: #4b134f;
@@ -52,7 +52,7 @@ h3 {
 
 h4 {
   margin: 20px 0 0 0;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 25px;
   font-weight: 400;
   color: #4b134f;
@@ -224,16 +224,28 @@ p a:hover {
     margin: 50px;
   }
 
+  .projects {
+    padding: 0 0 50px 0;
+    margin: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    padding: 20px 0;
+    margin: 50px 30px;
+  }
+
+  .projects {
+    padding: 0 0 20px 0;
+    margin: 50px 30px;
+  }
+
   .about img {
     margin: auto;
     display: block;
     max-height: 140px;
     float: none;
-  }
-
-  .projects {
-    padding: 0 0 50px 0;
-    margin: 50px;
   }
 
   .project-data {
@@ -243,9 +255,7 @@ p a:hover {
   .p-data-links {
     padding: 0;
   }
-}
 
-@media only screen and (max-width: 550px) {
   h4 {
     margin: 30px 0 10px 0;
   }
@@ -268,7 +278,6 @@ p a:hover {
   }  
 }
 
-/* Safari 4.0 - 8.0 */
 @-webkit-keyframes fade-in {
   0%   {opacity: 0;}
   50%  {opacity: 1;}
