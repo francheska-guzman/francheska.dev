@@ -1,13 +1,13 @@
 /* General */
 
-@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 
 * {
   margin: 0;
 }
 
 body {
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Roboto', 'Roboto Condensed', sans-serif;
 }
 
 input:focus,
@@ -20,35 +20,42 @@ button:focus {
 /* Fonts */
 
 .hero h1 {
-  font-size: 50px;
-  color: #566677;
+  font-size: 35px;
+  font-weight: 300;
+  color: #ffffff;
   text-align: center;
-  padding: 182px 0 0 0;
+  padding: 200px 0 0 0;
 }
 
 .hero h2 {
   font-size: 18px;
+  font-weight: 300;
+  color: #e5e5e5;
   text-align: center;
-  color: #9ca8b7;
+  padding: 2px 0 0 0;
 }
 
 .wrapper h2 {
   font-size: 30px;
-  color: #536976;
+  color: #4b134f;
   padding: 0 0 30px 0;
+  font-weight: 400;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
-  margin: 0 0 50px 0;
-  color: #243B55;
+  margin: 0 0 55px 0;
+  color: #4b134f;
+  font-weight: 400;
 }
 
 h4 {
   margin: 20px 0 0 0;
+  font-size: 16px;
   line-height: 25px;
-  color: #566677;
+  font-weight: 400;
+  color: #656565;
 }
 
 .data-container h4 {
@@ -57,8 +64,9 @@ h4 {
 }
 
 .footer h6 {
-  font-size: 14px;
-  color: #536976;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
   padding: 25px 0 0 0;
 }
 
@@ -67,34 +75,35 @@ button img {
 }
 
 h6 a {
-  color: #9ca8b7;
+  color: #e5e5e5;
   text-decoration: none;
 }
 
 h6 a:hover {
-  color: #536976;
+  color: #fdfdfd;
 }
 
 p {
-  font-size: 15px;
-  color: #373C51;
+  font-size: 16px;
   line-height: 25px;
+  color: #656565;
   padding: 20px 0 0 0;
+  font-weight: 400;
 }
 
 p a {
-  color: #536976;
+  color: #c94b4b;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 p a:hover {
-  color: #BBD2C5;
+  color: #e75050;
 }
 
 .project-data p span {
-  font-weight: bold;
-  color: #536976;
+  font-weight: 500;
+  color: #4b134f;
 }
 
 /* To all components */
@@ -106,16 +115,16 @@ p a:hover {
 
 .app hr {
     border: 0;
-    border-bottom: 1px dashed #667382;
+    border-bottom: 2px solid #c94b4b;
 }
 
 /* Hero */
 
 .hero {
   height: 500px;
-  background: #141E30;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #c94b4b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4b134f, #c94b4b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4b134f, #c94b4b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .animation-fade-in {
@@ -132,7 +141,7 @@ p a:hover {
 
 .about img {
   border-radius: 50%;
-  border: 1px dashed #667382;
+  border: none;
   max-height: 110px;
   margin: 25px 20px 0 0;
   float: left;
@@ -195,7 +204,7 @@ p a:hover {
 /* Footer */
 
 .footer {
-  background: #141E30;
+  background: #4b134f;
   text-align: center;
 }
 
@@ -234,39 +243,11 @@ p a:hover {
   .p-data-links {
     padding: 0;
   }
-
-  p {
-    font-size: 14px;
-    line-height: 23px;
-    padding: 18px 0 0 0;
-  }
 }
 
 @media only screen and (max-width: 550px) {
-  .hero h1 {
-    font-size: 43px;
-    padding: 175px 0 0 0;
-  }
-
-  .hero h2 {
-    font-size: 16px;
-  }
-
-  .wrapper h2 {
-    font-size: 25px;
-    padding: 0 0 20px 0;
-  }
-
-  h3 {
-    font-size: 21px;
-  }
-
   h4 {
-    margin: 18px 0 0 0;
-  }
-
-  .footer h6 {
-    font-size: 13px;
+    margin: 30px 0 10px 0;
   }
 
   .data {
