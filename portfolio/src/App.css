@@ -25,6 +25,11 @@ button:focus {
   color: #ffffff;
   text-align: center;
   padding: 200px 0 0 0;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .hero h2 {
@@ -33,6 +38,11 @@ button:focus {
   color: #e5e5e5;
   text-align: center;
   padding: 2px 0 0 0;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .wrapper h2 {
@@ -40,6 +50,11 @@ button:focus {
   color: #4b134f;
   padding: 0 0 30px 0;
   font-weight: 400;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 h3 {
@@ -48,6 +63,11 @@ h3 {
   margin: 0 0 55px 0;
   color: #4b134f;
   font-weight: 400;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 h4 {
@@ -56,6 +76,11 @@ h4 {
   line-height: 25px;
   font-weight: 400;
   color: #4b134f;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .data-container h4 {
@@ -68,6 +93,11 @@ h4 {
   font-weight: 400;
   color: #ffffff;
   padding: 25px 0 0 0;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 button img {
@@ -89,6 +119,11 @@ p {
   color: #656565;
   padding: 20px 0 0 0;
   font-weight: 400;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 p a {
@@ -145,6 +180,7 @@ p a:hover {
   max-height: 110px;
   margin: 25px 20px 0 0;
   float: left;
+  pointer-events: none;
 }
 
 /* Projects */
@@ -156,6 +192,7 @@ p a:hover {
 .project-image {
   width: 100%;
   margin: auto;
+  pointer-events: none;
 }
 
 .project-data {
