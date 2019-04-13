@@ -4,7 +4,7 @@ class Hero extends Component {
   render() {
     return (
       <div className='hero'>
-        <h1>Francheska Guzmán</h1>
+        <h1>Francheska Guzman</h1>
         <h2 className="animation-fade-in">Full Stack Developer</h2>
       </div>
     );
