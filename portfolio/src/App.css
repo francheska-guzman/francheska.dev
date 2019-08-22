@@ -73,7 +73,7 @@ h3 {
 h4 {
   margin: 20px 0 0 0;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 27px;
   font-weight: 400;
   color: #4b134f;
   cursor: default;
@@ -98,6 +98,14 @@ h4 {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.break {
+	display: none;
+}
+
+button {
+	border: none;
 }
 
 button img {
@@ -146,11 +154,6 @@ p a:hover {
 .wrapper {
   margin: auto;
   max-width: 800px;
-}
-
-.app hr {
-    border: 0;
-    border-bottom: 2px solid #c94b4b;
 }
 
 /* Hero */
@@ -312,7 +315,23 @@ p a:hover {
 
   .data-container button img {
     max-width: 100%;
-  }  
+  } 
+	
+  p {
+	font-size: 18px;
+	line-height: 27px;
+  }
+	
+  h4 {
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+    line-height: 29px;
+  }
+
+  .break {
+	margin-top: 40px;
+	display: block;
+  }
 }
 
 @-webkit-keyframes fade-in {

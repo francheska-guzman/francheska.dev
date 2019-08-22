@@ -67,10 +67,12 @@ class Data extends Component {
              <h4>Connect Four</h4>
              <button onClick={this.project1}><img src={Project1} alt="Project 1" /></button>
           </div>
+          <hr className="break" />
           <div className="data-container">
              <h4>Weather Forecast</h4>
              <button onClick={this.project2}><img src={Project2} alt="Project 2" /></button>
           </div>
+          <hr className="break" />
           <div className="data-container">
              <h4>Credit Report</h4>
              <button onClick={this.project3}><img src={Project3} alt="Project 3" /></button>
