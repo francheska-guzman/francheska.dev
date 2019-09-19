@@ -6,8 +6,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 
-import P1_2 from "../assets/images/p1-2.png";
-import P1_3 from "../assets/images/p1-3.png";
+import P2_2 from "../assets/images/p2-2.png";
+import P2_3 from "../assets/images/p2-3.png";
 
 var description = "Representation of the web application.";
 
@@ -15,14 +15,14 @@ class Projects extends Component {
   constructor(props){
     super(props);
     this.state = {
-      title: "Connect Four",
-      description: "The classic two-player board game Connect Four. The objective of the game is to be the first to form an horizontal, vertical, or diagonal line of four of one's own token.",
-      instructions: 'Refer to "How to Play" link located at the top of the board.',
-      technologies: "HTML, CSS, and JavaScript.",
-      live: "https://francheska-guzman.github.io/connect-four",
-      code: "https://github.com/francheska-guzman/connect-four",
-      api: null,
-      carousel: [<img src={P1_2} alt={description} />, <img src={P1_3} alt={description} />]
+      title: "Weather Forecast", 
+      description: "A weather web application that provides actual data of five cities such as minimum and maximum temperature, wind, humidity, and pressure.",
+      instructions: "Select any city to get the detailed information about the weather conditions.",
+      technologies: "HTML, CSS, JavaScript, JSX, and React.",
+      live: "https://francheska-guzman.github.io/weather-forecast",
+      code: "https://github.com/francheska-guzman/weather-forecast",
+      api: "https://openweathermap.org/api",
+      carousel: [<img src={P2_2} alt={description} />, <img src={P2_3} alt={description} />]
     }
     this.project = this.project.bind(this);
     this.api = this.api.bind(this);
