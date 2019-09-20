@@ -19,6 +19,7 @@ A collection of some projects I have been working on, and my most updated resume
 
 ## <a name="site">How to see</a>
 
+#### [https://francheska.dev](https://francheska.dev)
 #### [https://francheska.io](https://francheska.io)
 
 #### [Go back to the Table of Contents](#project)
