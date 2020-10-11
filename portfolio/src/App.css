@@ -180,7 +180,7 @@ p a:hover {
 .about img {
   border-radius: 50%;
   border: none;
-  max-height: 175px;
+  max-height: 150px;
   margin: 27px 20px 10px 0;
   float: left;
   pointer-events: none;
@@ -285,7 +285,7 @@ p a:hover {
   .about img {
     margin: auto;
     display: block;
-    max-height: 140px;
+    max-height: 175px;
     float: none;
   }
 
