@@ -39,7 +39,7 @@ class Data extends Component {
       "Weather Forecast", 
       "A weather web application that provides actual data of five cities such as minimum and maximum temperature, wind, humidity, and pressure.",
       "Select any city to get the detailed information about the weather conditions.",
-      "HTML, CSS, JavaScript, JSX, and React.",
+      "HTML, CSS, JSX, and React.",
       "https://francheska-guzman.github.io/weather-forecast",
       "https://github.com/francheska-guzman/weather-forecast",
       "https://openweathermap.org/api",
@@ -64,17 +64,17 @@ class Data extends Component {
     return (
       <div className="data">
           <div className="data-container">
-             <h4>Weather Forecast</h4>
+             <h3>Weather Forecast</h3>
              <button onClick={this.project2}><img src={Project2} alt="Project 2" /></button>
           </div>
           <hr className="break" />
           <div className="data-container">
-             <h4>Connect Four</h4>
+             <h3>Connect Four</h3>
              <button onClick={this.project1}><img src={Project1} alt="Project 1" /></button>
           </div>
           {/* <hr className="break" />
           <div className="data-container">
-             <h4>Credit Report</h4>
+             <h3>Credit Report</h3>
              <button onClick={this.project3}><img src={Project3} alt="Project 3" /></button>
           </div> */}
       </div>

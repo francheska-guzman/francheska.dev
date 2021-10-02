@@ -18,7 +18,7 @@ class Projects extends Component {
       title: "Weather Forecast", 
       description: "A weather web application that provides actual data of five cities such as minimum and maximum temperature, wind, humidity, and pressure.",
       instructions: "Select any city to get the detailed information about the weather conditions.",
-      technologies: "HTML, CSS, JavaScript, JSX, and React.",
+      technologies: "HTML, CSS, JSX, and React.",
       live: "https://francheska-guzman.github.io/weather-forecast",
       code: "https://github.com/francheska-guzman/weather-forecast",
       api: "https://openweathermap.org/api",
@@ -64,7 +64,7 @@ class Projects extends Component {
         <h2>Projects</h2>
         <Data project={this.project} state={this.state} />
         <div className='project-image'>
-          <h3>{this.state.title}</h3>
+          <h4>{this.state.title}</h4>
           <Slider {...settings}>
             <div className="proj">{this.state.carousel[0]}</div>
             <div className="proj">{this.state.carousel[1]}</div>

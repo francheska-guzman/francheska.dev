@@ -58,19 +58,6 @@ button:focus {
 }
 
 h3 {
-  font-size: 25px;
-  text-align: center;
-  margin: 0 0 55px 0;
-  color: #0d1041;
-  font-weight: 400;
-  cursor: default;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-h4 {
   margin: 20px 0 0 0;
   font-size: 18px;
   line-height: 27px;
@@ -83,12 +70,25 @@ h4 {
   user-select: none;
 }
 
-.data-container h4 {
+.data-container h3 {
   text-align: center;
   padding: 0 0 10px 0;
 }
 
-.footer h6 {
+h4 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0 0 55px 0;
+  color: #0d1041;
+  font-weight: 400;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.footer h5 {
   font-size: 15px;
   font-weight: 400;
   color: #ffffff;
@@ -112,12 +112,12 @@ button img {
 	cursor: pointer;
 }
 
-h6 a {
+h5 a {
   color: #e5e5e5;
   text-decoration: none;
 }
 
-h6 a:hover {
+h5 a:hover {
   color: #fdfdfd;
 }
 
@@ -135,13 +135,13 @@ p {
 }
 
 p a {
-  color: #1F1B63;
+  color: #0B71A1;
   text-decoration: none;
   font-weight: 400;
 }
 
 p a:hover {
-  color: #30299E;
+  color: #129DDE;
 }
 
 .project-data p span {
@@ -299,8 +299,10 @@ p a:hover {
     padding: 0;
   }
 
-  h4 {
-    margin: 30px 0 10px 0;
+  h3 {
+    margin: 20px 0 10px 0;
+    font-size: 20px;
+    line-height: 29px;
   }
 
   .data {
@@ -321,19 +323,13 @@ p a:hover {
   } 
 	
   p {
-	font-size: 16px;
-	line-height: 24px;
-  }
-	
-  h4 {
-    margin: 20px 0 10px 0;
-    font-size: 20px;
-    line-height: 29px;
+    font-size: 16px;
+    line-height: 24px;
   }
 
   .break {
-	margin-top: 40px;
-	display: block;
+    margin-top: 40px;
+    display: block;
   }
 }
 
