@@ -5,7 +5,7 @@ class Hero extends Component {
     return (
       <div className='hero'>
         <h1>Francheska Guzmán</h1>
-        <h2 className="animation-fade-in">Software Tester | QA | Web Developer</h2>
+        <h2 className="animation-fade-in">ISTQB/ASTQB Certified Tester</h2>
       </div>
     );
   }
