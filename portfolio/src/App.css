@@ -45,6 +45,16 @@ button:focus {
   user-select: none;
 }
 
+.hero h2 a {
+  color: #26C4D9;
+  text-decoration: none;
+}
+
+.hero h2 a:hover {
+  color: #85DEEA;
+  text-decoration: none;
+}
+
 .wrapper h2 {
   font-size: 30px;
   color: #0d1041;
