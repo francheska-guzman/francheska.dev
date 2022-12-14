@@ -33,7 +33,7 @@ button:focus {
 }
 
 .hero h2 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   color: #e5e5e5;
   text-align: center;
@@ -46,12 +46,12 @@ button:focus {
 }
 
 .hero h2 a {
-  color: #26C4D9;
+  color: #e5e5e5;
   text-decoration: none;
 }
 
 .hero h2 a:hover {
-  color: #85DEEA;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -190,7 +190,7 @@ p a:hover {
 .about img {
   border-radius: 50%;
   border: none;
-  max-height: 150px;
+  max-height: 190px;
   margin: 27px 20px 10px 0;
   float: left;
   pointer-events: none;
