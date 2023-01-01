@@ -190,7 +190,7 @@ p a:hover {
 .about img {
   border-radius: 50%;
   border: none;
-  max-height: 190px;
+  max-height: 150px;
   margin: 27px 20px 10px 0;
   float: left;
   pointer-events: none;
