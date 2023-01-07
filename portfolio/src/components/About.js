@@ -12,8 +12,8 @@ class About extends Component {
                 <p className="introduction">Francheska has born and raised in Puerto Rico. 
                 She has 8+ years of combined experience in manual and automated software testing, 
                 quality assurance, and web development. Francheska is currently working as a 
-                Software Test Engineer II at Abarca Health and her hobbies are travel, go to the beach, 
-                learn French, play El Cuatro Puertorriqueño, and spend quality time with family and friends.
+                Software Test Engineer at Abarca Health, and her hobbies are travel, go to the beach, 
+                learn French, dance, play Guiro and the Puerto Rican Cuatro, and spend quality time with family and friends.
                 </p>
         </div>
       </div>
