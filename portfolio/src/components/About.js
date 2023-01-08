@@ -18,7 +18,7 @@ class About extends Component {
                 learn French, play Guiro and the Puerto Rican Cuatro, dance, and spend quality time with family and friends.
                 </p>
 
-                <p>Here you can find some of the projects she has worked on, download her must updated CV, and access to other profiles such as GitHub and LinkedIn. So feel free to connect! :)</p>
+                <p>Here you can find some of the projects she has worked on, download her must updated CV, and access to other profiles such as GitHub and LinkedIn. So feel free to connect! <span className="emoji-face">😊</span></p>
         </div>
       </div>
     );

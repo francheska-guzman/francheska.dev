@@ -196,6 +196,10 @@ p a:hover {
   pointer-events: none;
 }
 
+.emoji-face {
+  font-size: 18px !important;
+}
+
 /* Projects */
 
 .projects {
